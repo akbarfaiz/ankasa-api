@@ -76,8 +76,6 @@ Ankasa Plane API is an API that functions as a Backend containing user, city, pl
 
     * **GET /booking/detail/:id** → Get booking data by booking id in params (Need Bearer Token)
 
-    * **GET /pekerja/detail/:id** → Get detail pekerja by params id
-
     * **POST /booking/create** → Create new booking (Need Bearer Token)
 
         ```Body{ticket_id,is_paid,insurance,insurance_price,subtotal,total,total_passenger}```
