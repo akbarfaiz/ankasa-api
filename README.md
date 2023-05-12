@@ -57,6 +57,10 @@ Ankasa Plane API is an API that functions as a Backend containing user, city, pl
     * **POST /users/otp/confirm** → For email verification 
         
         ```Body{email,otp}```
+    
+    * **PUT /users/update** → Update user data (Need Bearer Token) 
+        
+        ```Body{email,name,phone,city,address,post_code}```
 
 * **Ticket**
     * **GET /ticket** → Get all ticket data
